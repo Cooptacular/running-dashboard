@@ -17,6 +17,9 @@ pnpm-debug.log*
 .env
 .env.production
 
+# Garmin OAuth token cache — contains secrets, never commit
+.garmin-tokens/
+
 # macOS-specific files
 .DS_Store
 

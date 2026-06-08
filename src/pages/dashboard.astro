@@ -1,0 +1,23 @@
+---
+// src/pages/dashboard.astro
+// Astro renders this page as static HTML. The <RunDashboard /> below is an
+// "island": Astro ships the React + chart JavaScript ONLY for this component,
+// not the whole page. `client:load` tells Astro to make it interactive as
+// soon as the page loads.
+import RunDashboard from "../components/RunDashboard.jsx";
+import runs from "../data/runs.json";
+import "../styles/global.css";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Running Dashboard</title>
+  </head>
+  <body>
+    <!-- Real data goes in here as a prop. The component's built-in sample
+         data is ignored the moment you pass `runs`. -->
+    <RunDashboard runs={runs} client:load />
+  </body>
+</html>
