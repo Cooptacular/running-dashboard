@@ -80,6 +80,7 @@ const runs = activities
   .map((a, i) => ({
     id: a.activityId ?? i + 1,
     date: isoDate(a.startTimeLocal ?? a.startTimeGMT),
+    activity_type: a.activityType?.typeKey ?? a.activityType ?? "running",
     distance_km: a.distance != null ? Math.round((a.distance / 1000) * 100) / 100 : null,
     duration_min: a.duration != null ? Math.round((a.duration / 60) * 10) / 10 : null,
     avg_hr: a.averageHR ?? null,
