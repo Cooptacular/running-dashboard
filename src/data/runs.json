@@ -1,356 +1,5 @@
 [
   {
-    "id": 22330046766,
-    "date": "2026-03-28",
-    "activity_type": "trail_running",
-    "distance_km": 14.61,
-    "duration_min": 86.3,
-    "avg_hr": 153,
-    "elevation_gain_m": 222
-  },
-  {
-    "id": 22339287780,
-    "date": "2026-03-29",
-    "activity_type": "running",
-    "distance_km": 2.83,
-    "duration_min": 15.7,
-    "avg_hr": 132,
-    "elevation_gain_m": 9
-  },
-  {
-    "id": 22351433440,
-    "date": "2026-03-30",
-    "activity_type": "running",
-    "distance_km": 6.47,
-    "duration_min": 36,
-    "avg_hr": 139,
-    "elevation_gain_m": 90
-  },
-  {
-    "id": 22376303125,
-    "date": "2026-04-01",
-    "activity_type": "running",
-    "distance_km": 2.56,
-    "duration_min": 13.4,
-    "avg_hr": 140,
-    "elevation_gain_m": 13
-  },
-  {
-    "id": 22386726566,
-    "date": "2026-04-02",
-    "activity_type": "running",
-    "distance_km": 4.86,
-    "duration_min": 25.1,
-    "avg_hr": 146,
-    "elevation_gain_m": 50
-  },
-  {
-    "id": 22395568790,
-    "date": "2026-04-03",
-    "activity_type": "running",
-    "distance_km": 8.16,
-    "duration_min": 49.9,
-    "avg_hr": 132,
-    "elevation_gain_m": 88
-  },
-  {
-    "id": 22406037590,
-    "date": "2026-04-04",
-    "activity_type": "running",
-    "distance_km": 5.19,
-    "duration_min": 29.2,
-    "avg_hr": 129,
-    "elevation_gain_m": 51
-  },
-  {
-    "id": 22430132045,
-    "date": "2026-04-06",
-    "activity_type": "running",
-    "distance_km": 6.45,
-    "duration_min": 32.7,
-    "avg_hr": 146,
-    "elevation_gain_m": 70
-  },
-  {
-    "id": 22445773495,
-    "date": "2026-04-07",
-    "activity_type": "running",
-    "distance_km": 4.84,
-    "duration_min": 25.2,
-    "avg_hr": 149,
-    "elevation_gain_m": 11
-  },
-  {
-    "id": 22444458351,
-    "date": "2026-04-07",
-    "activity_type": "running",
-    "distance_km": 4.87,
-    "duration_min": 27,
-    "avg_hr": 138,
-    "elevation_gain_m": 66
-  },
-  {
-    "id": 22459376235,
-    "date": "2026-04-08",
-    "activity_type": "running",
-    "distance_km": 4.94,
-    "duration_min": 27.5,
-    "avg_hr": 139,
-    "elevation_gain_m": 23
-  },
-  {
-    "id": 22478487753,
-    "date": "2026-04-10",
-    "activity_type": "running",
-    "distance_km": 4.14,
-    "duration_min": 22.3,
-    "avg_hr": 136,
-    "elevation_gain_m": 17
-  },
-  {
-    "id": 22491914306,
-    "date": "2026-04-11",
-    "activity_type": "trail_running",
-    "distance_km": 14.58,
-    "duration_min": 97.8,
-    "avg_hr": 140,
-    "elevation_gain_m": 233
-  },
-  {
-    "id": 22502488235,
-    "date": "2026-04-12",
-    "activity_type": "running",
-    "distance_km": 8.77,
-    "duration_min": 47.9,
-    "avg_hr": 142,
-    "elevation_gain_m": 48
-  },
-  {
-    "id": 22516397536,
-    "date": "2026-04-13",
-    "activity_type": "running",
-    "distance_km": 2.67,
-    "duration_min": 13.7,
-    "avg_hr": 143,
-    "elevation_gain_m": 9
-  },
-  {
-    "id": 22513487360,
-    "date": "2026-04-13",
-    "activity_type": "running",
-    "distance_km": 6.53,
-    "duration_min": 37.5,
-    "avg_hr": 145,
-    "elevation_gain_m": 77
-  },
-  {
-    "id": 22528579388,
-    "date": "2026-04-14",
-    "activity_type": "running",
-    "distance_km": 6.95,
-    "duration_min": 35.3,
-    "avg_hr": 150,
-    "elevation_gain_m": 41
-  },
-  {
-    "id": 22553085163,
-    "date": "2026-04-16",
-    "activity_type": "running",
-    "distance_km": 4.84,
-    "duration_min": 26.3,
-    "avg_hr": 148,
-    "elevation_gain_m": 13
-  },
-  {
-    "id": 22573295372,
-    "date": "2026-04-18",
-    "activity_type": "running",
-    "distance_km": 4.97,
-    "duration_min": 25.4,
-    "avg_hr": 145,
-    "elevation_gain_m": 31
-  },
-  {
-    "id": 22599662980,
-    "date": "2026-04-20",
-    "activity_type": "running",
-    "distance_km": 2.82,
-    "duration_min": 16.2,
-    "avg_hr": 146,
-    "elevation_gain_m": 13
-  },
-  {
-    "id": 22598938072,
-    "date": "2026-04-20",
-    "activity_type": "running",
-    "distance_km": 4.15,
-    "duration_min": 22.1,
-    "avg_hr": 153,
-    "elevation_gain_m": 6
-  },
-  {
-    "id": 22611902809,
-    "date": "2026-04-21",
-    "activity_type": "running",
-    "distance_km": 8.38,
-    "duration_min": 44.7,
-    "avg_hr": 150,
-    "elevation_gain_m": 32
-  },
-  {
-    "id": 22623887078,
-    "date": "2026-04-22",
-    "activity_type": "running",
-    "distance_km": 4.86,
-    "duration_min": 26.1,
-    "avg_hr": 147,
-    "elevation_gain_m": 17
-  },
-  {
-    "id": 22634680218,
-    "date": "2026-04-23",
-    "activity_type": "trail_running",
-    "distance_km": 11.31,
-    "duration_min": 76.1,
-    "avg_hr": 134,
-    "elevation_gain_m": 252
-  },
-  {
-    "id": 22646804752,
-    "date": "2026-04-24",
-    "activity_type": "running",
-    "distance_km": 4.91,
-    "duration_min": 28.5,
-    "avg_hr": 141,
-    "elevation_gain_m": 34
-  },
-  {
-    "id": 22670404300,
-    "date": "2026-04-26",
-    "activity_type": "trail_running",
-    "distance_km": 8.17,
-    "duration_min": 83.2,
-    "avg_hr": 144,
-    "elevation_gain_m": 509
-  },
-  {
-    "id": 22695326057,
-    "date": "2026-04-28",
-    "activity_type": "running",
-    "distance_km": 1.72,
-    "duration_min": 9.1,
-    "avg_hr": 145,
-    "elevation_gain_m": 6
-  },
-  {
-    "id": 22693005355,
-    "date": "2026-04-28",
-    "activity_type": "running",
-    "distance_km": 5.11,
-    "duration_min": 28.7,
-    "avg_hr": 141,
-    "elevation_gain_m": 65
-  },
-  {
-    "id": 22718922628,
-    "date": "2026-04-30",
-    "activity_type": "running",
-    "distance_km": 6.47,
-    "duration_min": 34.4,
-    "avg_hr": 145,
-    "elevation_gain_m": 38
-  },
-  {
-    "id": 22730369232,
-    "date": "2026-05-01",
-    "activity_type": "running",
-    "distance_km": 5.11,
-    "duration_min": 28.3,
-    "avg_hr": 143,
-    "elevation_gain_m": 33
-  },
-  {
-    "id": 22740863281,
-    "date": "2026-05-02",
-    "activity_type": "trail_running",
-    "distance_km": 16.44,
-    "duration_min": 114.4,
-    "avg_hr": 134,
-    "elevation_gain_m": 250
-  },
-  {
-    "id": 22751817683,
-    "date": "2026-05-03",
-    "activity_type": "running",
-    "distance_km": 2.67,
-    "duration_min": 15.4,
-    "avg_hr": 144,
-    "elevation_gain_m": 10
-  },
-  {
-    "id": 22766791783,
-    "date": "2026-05-04",
-    "activity_type": "running",
-    "distance_km": 4.91,
-    "duration_min": 27.2,
-    "avg_hr": 144,
-    "elevation_gain_m": 36
-  },
-  {
-    "id": 22791293557,
-    "date": "2026-05-06",
-    "activity_type": "running",
-    "distance_km": 6.91,
-    "duration_min": 39.2,
-    "avg_hr": 137,
-    "elevation_gain_m": 35
-  },
-  {
-    "id": 22802629880,
-    "date": "2026-05-07",
-    "activity_type": "running",
-    "distance_km": 6.45,
-    "duration_min": 34.5,
-    "avg_hr": 151,
-    "elevation_gain_m": 16
-  },
-  {
-    "id": 22812990313,
-    "date": "2026-05-08",
-    "activity_type": "running",
-    "distance_km": 3.57,
-    "duration_min": 20.1,
-    "avg_hr": 143,
-    "elevation_gain_m": 21
-  },
-  {
-    "id": 22823595592,
-    "date": "2026-05-09",
-    "activity_type": "trail_running",
-    "distance_km": 8.07,
-    "duration_min": 80.5,
-    "avg_hr": 139,
-    "elevation_gain_m": 395
-  },
-  {
-    "id": 22837584472,
-    "date": "2026-05-10",
-    "activity_type": "running",
-    "distance_km": 1.79,
-    "duration_min": 10,
-    "avg_hr": 147,
-    "elevation_gain_m": 5
-  },
-  {
-    "id": 22860881019,
-    "date": "2026-05-12",
-    "activity_type": "running",
-    "distance_km": 8.32,
-    "duration_min": 43.9,
-    "avg_hr": 155,
-    "elevation_gain_m": 21
-  },
-  {
     "id": 22871854773,
     "date": "2026-05-13",
     "activity_type": "running",
@@ -448,5 +97,356 @@
     "duration_min": 24.4,
     "avg_hr": 133,
     "elevation_gain_m": 26
+  },
+  {
+    "id": 23318970543,
+    "date": "2026-06-20",
+    "activity_type": "running",
+    "distance_km": 2.81,
+    "duration_min": 17.6,
+    "avg_hr": 128,
+    "elevation_gain_m": 9
+  },
+  {
+    "id": 23343606931,
+    "date": "2026-06-22",
+    "activity_type": "running",
+    "distance_km": 6.61,
+    "duration_min": 38.5,
+    "avg_hr": 145,
+    "elevation_gain_m": 29
+  },
+  {
+    "id": 23352026959,
+    "date": "2026-06-23",
+    "activity_type": "running",
+    "distance_km": 2.85,
+    "duration_min": 15.6,
+    "avg_hr": 142,
+    "elevation_gain_m": 14
+  },
+  {
+    "id": 23368293953,
+    "date": "2026-06-24",
+    "activity_type": "running",
+    "distance_km": 3.25,
+    "duration_min": 18.9,
+    "avg_hr": 150,
+    "elevation_gain_m": 16
+  },
+  {
+    "id": 23366322081,
+    "date": "2026-06-24",
+    "activity_type": "running",
+    "distance_km": 4.84,
+    "duration_min": 28.3,
+    "avg_hr": 144,
+    "elevation_gain_m": 35
+  },
+  {
+    "id": 23378581608,
+    "date": "2026-06-25",
+    "activity_type": "running",
+    "distance_km": 11.29,
+    "duration_min": 65,
+    "avg_hr": 152,
+    "elevation_gain_m": 69
+  },
+  {
+    "id": 23387884693,
+    "date": "2026-06-26",
+    "activity_type": "running",
+    "distance_km": 4.25,
+    "duration_min": 23.9,
+    "avg_hr": 137,
+    "elevation_gain_m": 35
+  },
+  {
+    "id": 23398857130,
+    "date": "2026-06-27",
+    "activity_type": "running",
+    "distance_km": 11.29,
+    "duration_min": 64.7,
+    "avg_hr": 143,
+    "elevation_gain_m": 64
+  },
+  {
+    "id": 23431643571,
+    "date": "2026-06-29",
+    "activity_type": "running",
+    "distance_km": 6.62,
+    "duration_min": 39.6,
+    "avg_hr": 143,
+    "elevation_gain_m": 86
+  },
+  {
+    "id": 23431644792,
+    "date": "2026-06-30",
+    "activity_type": "running",
+    "distance_km": 5.1,
+    "duration_min": 29.4,
+    "avg_hr": 136,
+    "elevation_gain_m": 35
+  },
+  {
+    "id": 23452516351,
+    "date": "2026-07-01",
+    "activity_type": "running",
+    "distance_km": 8.1,
+    "duration_min": 46,
+    "avg_hr": 148,
+    "elevation_gain_m": 42
+  },
+  {
+    "id": 23454341898,
+    "date": "2026-07-02",
+    "activity_type": "running",
+    "distance_km": 10.36,
+    "duration_min": 61,
+    "avg_hr": 153,
+    "elevation_gain_m": 62
+  },
+  {
+    "id": 23488364824,
+    "date": "2026-07-05",
+    "activity_type": "running",
+    "distance_km": 3.69,
+    "duration_min": 21.5,
+    "avg_hr": 138,
+    "elevation_gain_m": 47
+  },
+  {
+    "id": 23502894913,
+    "date": "2026-07-06",
+    "activity_type": "trail_running",
+    "distance_km": 10.37,
+    "duration_min": 62.9,
+    "avg_hr": 131,
+    "elevation_gain_m": 61
+  },
+  {
+    "id": 23539816188,
+    "date": "2026-07-09",
+    "activity_type": "trail_running",
+    "distance_km": 5.41,
+    "duration_min": 29.7,
+    "avg_hr": 148,
+    "elevation_gain_m": 24
+  },
+  {
+    "id": 23571698965,
+    "date": "2026-07-12",
+    "activity_type": "running",
+    "distance_km": 5.87,
+    "duration_min": 33,
+    "avg_hr": 154,
+    "elevation_gain_m": 25
+  },
+  {
+    "id": 23588011210,
+    "date": "2026-07-13",
+    "activity_type": "running",
+    "distance_km": 2.81,
+    "duration_min": 16.7,
+    "avg_hr": 148,
+    "elevation_gain_m": 10
+  },
+  {
+    "id": 23601212208,
+    "date": "2026-07-14",
+    "activity_type": "running",
+    "distance_km": 4.87,
+    "duration_min": 27,
+    "avg_hr": 149,
+    "elevation_gain_m": 26
+  },
+  {
+    "id": 23654083756,
+    "date": "2026-07-19",
+    "activity_type": "running",
+    "distance_km": 5.15,
+    "duration_min": 27.7,
+    "avg_hr": 135,
+    "elevation_gain_m": 8
+  },
+  {
+    "id": 23664757652,
+    "date": "2026-07-20",
+    "activity_type": "running",
+    "distance_km": 3.32,
+    "duration_min": 19.4,
+    "avg_hr": 140,
+    "elevation_gain_m": 3
+  },
+  {
+    "id": 23676600171,
+    "date": "2026-07-21",
+    "activity_type": "running",
+    "distance_km": 5.12,
+    "duration_min": 29.2,
+    "avg_hr": 138,
+    "elevation_gain_m": 8
+  },
+  {
+    "id": 23694055773,
+    "date": "2026-07-22",
+    "activity_type": "running",
+    "distance_km": 9.99,
+    "duration_min": 53.4,
+    "avg_hr": 154,
+    "elevation_gain_m": 15
+  },
+  {
+    "id": 23705513238,
+    "date": "2026-07-23",
+    "activity_type": "running",
+    "distance_km": 5.09,
+    "duration_min": 24.9,
+    "avg_hr": 159,
+    "elevation_gain_m": 5
+  },
+  {
+    "id": 23714737434,
+    "date": "2026-07-24",
+    "activity_type": "running",
+    "distance_km": 5.14,
+    "duration_min": 28.3,
+    "avg_hr": 135,
+    "elevation_gain_m": 2
+  },
+  {
+    "id": 23740285143,
+    "date": "2026-07-26",
+    "activity_type": "trail_running",
+    "distance_km": 12.28,
+    "duration_min": 81,
+    "avg_hr": 142,
+    "elevation_gain_m": 229
+  },
+  {
+    "id": 23755777706,
+    "date": "2026-07-27",
+    "activity_type": "running",
+    "distance_km": 5.38,
+    "duration_min": 30.2,
+    "avg_hr": 154,
+    "elevation_gain_m": 9
+  },
+  {
+    "id": 23769271014,
+    "date": "2026-07-28",
+    "activity_type": "running",
+    "distance_km": 8.06,
+    "duration_min": 47.5,
+    "avg_hr": 137,
+    "elevation_gain_m": 39
+  },
+  {
+    "id": 23781818939,
+    "date": "2026-07-29",
+    "activity_type": "running",
+    "distance_km": 4.86,
+    "duration_min": 27.6,
+    "avg_hr": 146,
+    "elevation_gain_m": 11
+  },
+  {
+    "id": 23790495788,
+    "date": "2026-07-30",
+    "activity_type": "running",
+    "distance_km": 6.49,
+    "duration_min": 36.9,
+    "avg_hr": 145,
+    "elevation_gain_m": 69
+  },
+  {
+    "id": 23829752605,
+    "date": "2026-07-31",
+    "activity_type": "running",
+    "distance_km": 6.97,
+    "duration_min": 39.7,
+    "avg_hr": 137,
+    "elevation_gain_m": 37
+  },
+  {
+    "id": 23838156046,
+    "date": "2026-08-03",
+    "activity_type": "trail_running",
+    "distance_km": 14.6,
+    "duration_min": 100.6,
+    "avg_hr": 150,
+    "elevation_gain_m": 254
+  },
+  {
+    "id": 23852719170,
+    "date": "2026-08-04",
+    "activity_type": "running",
+    "distance_km": 6.54,
+    "duration_min": 37.2,
+    "avg_hr": 138,
+    "elevation_gain_m": 107
+  },
+  {
+    "id": 23877679530,
+    "date": "2026-08-06",
+    "activity_type": "running",
+    "distance_km": 8.07,
+    "duration_min": 45,
+    "avg_hr": 151,
+    "elevation_gain_m": 51
+  },
+  {
+    "id": 23904129769,
+    "date": "2026-08-08",
+    "activity_type": "trail_running",
+    "distance_km": 16.14,
+    "duration_min": 339.8,
+    "avg_hr": 113,
+    "elevation_gain_m": 825
+  },
+  {
+    "id": 23928787236,
+    "date": "2026-08-10",
+    "activity_type": "running",
+    "distance_km": 8.08,
+    "duration_min": 44.5,
+    "avg_hr": 141,
+    "elevation_gain_m": 37
+  },
+  {
+    "id": 23940455206,
+    "date": "2026-08-11",
+    "activity_type": "running",
+    "distance_km": 4.84,
+    "duration_min": 28.8,
+    "avg_hr": 144,
+    "elevation_gain_m": 81
+  },
+  {
+    "id": 23955090335,
+    "date": "2026-08-12",
+    "activity_type": "running",
+    "distance_km": 4.89,
+    "duration_min": 25.7,
+    "avg_hr": 150,
+    "elevation_gain_m": 11
+  },
+  {
+    "id": 23964377881,
+    "date": "2026-08-13",
+    "activity_type": "running",
+    "distance_km": 3.23,
+    "duration_min": 18.1,
+    "avg_hr": 148,
+    "elevation_gain_m": 11
+  },
+  {
+    "id": 23962606302,
+    "date": "2026-08-13",
+    "activity_type": "running",
+    "distance_km": 5.7,
+    "duration_min": 29.7,
+    "avg_hr": 143,
+    "elevation_gain_m": 29
   }
 ]

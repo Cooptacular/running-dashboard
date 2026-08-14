@@ -1,15 +1,58 @@
 import "dotenv/config";
-import pkg from "@flow-js/garmin-connect";
-const { GarminConnect, ActivityType, ActivitySubType } = pkg;
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
+import { lookup } from "node:dns/promises";
+
+const GARMIN_HOST = "thegarth.s3.amazonaws.com";
+const activeProxyVars = Object.entries(process.env)
+  .filter(([key, value]) => /proxy/i.test(key) && value)
+  .map(([key, value]) => `${key}=${value}`);
+
+if (activeProxyVars.length) {
+  console.warn("Detected proxy environment variables that can block Garmin OAuth:");
+  for (const entry of activeProxyVars) {
+    console.warn(`  ${entry}`);
+  }
+}
+
+for (const key of [
+  "HTTP_PROXY",
+  "http_proxy",
+  "HTTPS_PROXY",
+  "https_proxy",
+  "ALL_PROXY",
+  "all_proxy",
+]) {
+  delete process.env[key];
+}
+
+const { default: pkg } = await import("@flow-js/garmin-connect");
+const { GarminConnect, ActivityType, ActivitySubType } = pkg;
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
 const TOKEN_DIR = resolve(ROOT, ".garmin-tokens");
 const OUTPUT = resolve(ROOT, "src/data/runs.json");
 const ACTIVITY_LIMIT = Number(process.env.GARMIN_ACTIVITY_LIMIT) || 50;
+
+async function ensureGarminReachable() {
+  try {
+    await lookup(GARMIN_HOST);
+    return;
+  } catch (error) {
+    console.error("Garmin OAuth host is not reachable from this environment before login begins.");
+    console.error(`Host checked: ${GARMIN_HOST}`);
+    console.error("This usually means a proxy, VPN, firewall, or restricted outbound network is blocking Garmin.");
+    if (activeProxyVars.length) {
+      console.error("Proxy variables were detected and cleared for this run to avoid forcing the request through the blocked proxy.");
+    }
+    console.error(error?.message || error);
+    process.exit(1);
+  }
+}
+
+await ensureGarminReachable();
 
 // ── Auth ──────────────────────────────────────────────────────────────────────
 
@@ -42,9 +85,16 @@ if (existsSync(tokenFile)) {
 }
 
 if (!loggedIn) {
-  await client.login();
-  client.exportTokenToFile(TOKEN_DIR);
-  console.log("Logged in and tokens cached.");
+  try {
+    await client.login();
+    client.exportTokenToFile(TOKEN_DIR);
+    console.log("Logged in and tokens cached.");
+  } catch (error) {
+    console.error("Garmin login failed. This is typically caused by a blocked outbound proxy or network restriction.");
+    console.error("The OAuth request to https://thegarth.s3.amazonaws.com/oauth_consumer.json is being denied.");
+    console.error(error?.response?.data || error?.message || error);
+    process.exit(1);
+  }
 }
 
 // ── Fetch activities ──────────────────────────────────────────────────────────
